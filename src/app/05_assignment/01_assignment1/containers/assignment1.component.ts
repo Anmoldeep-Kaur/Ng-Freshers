@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
-
+  textValue: string;
+  onChangeEvent(getText:string) {
+    const inElement=getText
+    console.log(this.textValue);
+    this.textValue=inElement;
+  }
 }
+

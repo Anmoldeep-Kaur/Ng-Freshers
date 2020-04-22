@@ -6,3 +6,15 @@
 .active {
   background-color: #0c5460;
 }
+thead {
+  background:lightblue;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+table,td{
+  border:2px solid purple;
+}
+thead th{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 3px solid purple;
+}
